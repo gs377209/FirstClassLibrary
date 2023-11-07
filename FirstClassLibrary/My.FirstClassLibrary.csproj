@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ReleaseVersion>0.1.0</ReleaseVersion>
+		<SynchReleaseVersion>false</SynchReleaseVersion>
+		<PackageId>My.FirstClassLibrary</PackageId>
+		<Version>0.1.0</Version>
+		<Authors>Gerrod Schirtzinger</Authors>
+		<Company>Insight</Company>
+		<Description>This is a Razor component library with a cool modal window component.</Description>
+	</PropertyGroup>
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.13" />
+	</ItemGroup>
+</Project>
